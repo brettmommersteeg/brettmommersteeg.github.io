@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Brett Mommersteeg"
 title_separator          : "-"
 name                     : &name "Brett Mommersteeg"
-description              : &description "personal description"
+description              : &description "ethnographer of architecture, science and technology studies, sound and noise"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Brett Mommersteeg"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  bio              : "ethnographer of architecture, science and technology studies, sound and noise"
+  location         : "Manchester, United Kingdom"
+  employer         : "University of Manchester, MARG"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/bmommersteeg"
   vine             :
   weibo            :
   xing             :
