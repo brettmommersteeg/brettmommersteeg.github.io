@@ -441,6 +441,7 @@
 }
 
 .mobile-nav-btn{
+  margin-right: auto;
 
   @include breakpoint($large) {
     display: none;
