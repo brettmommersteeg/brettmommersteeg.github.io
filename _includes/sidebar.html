@@ -1,26 +1,28 @@
 {% include base_path %}
 
-<div class="sidebar sticky">
-{% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-{% if page.sidebar %}
-  <a class="mobile-nav-btn" id="nav-btn">Menu</a>
-  {% for s in page.sidebar %}
-    {% if s.image %}
-      <img src=
-      {% if s.image contains "://" %}
-        "{{ s.image }}"
-      {% else %}
-        "{{ s.image | prepend: "/images/" | prepend: base_path }}"
-      {% endif %}
-      alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-    {% endif %}
-    {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-    {% if s.text %}{{ s.text | markdownify }}{% endif %}
-  {% endfor %}
-  {% if page.sidebar.nav %}
-    {% include nav_list nav=page.sidebar.nav %}
-  {% endif %}
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+
+<div class="sidebar sticky">
+  <div itemscope itemtype="http://schema.org/Person" class="author">
+    <a class="mobile-nav-btn" id="nav-btn">Menu</a>
+    <div class="author__avatar">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      {% else %}
+        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+      {% endif %}
+    </div>
+  
+    <div class="author__content">
+      <h3 class="author__name">{{ author.name }}</h3>
+    </div>
+  
+    <div class="author__urls-wrapper">
+    </div>
+  </div>
+
   <nav class="mobile-nav" id="mobile-nav-id">
     {% for link in site.data.navigation.main %}
       {% if link.url contains 'http' %}
