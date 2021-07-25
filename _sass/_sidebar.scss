@@ -69,12 +69,18 @@
    Author profile and links
    ========================================================================== */
 
+.author{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
   width: 36px;
   // set width only, for non-square avatars
   // height: 36px;
+  order: 2;
 
   @include breakpoint($large) {
     display: block;
@@ -99,6 +105,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  order: 1;
 
   @include breakpoint($large) {
     display: block;
@@ -234,4 +241,8 @@
       text-decoration: underline;
     }
   }
+}
+
+.sidebar-nav{
+  display: none;
 }
