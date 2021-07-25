@@ -3,8 +3,8 @@
 <div class="sidebar sticky">
 {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
 {% if page.sidebar %}
+  <a class="mobile-nav-btn" id="nav-btn">Menu</a>
   {% for s in page.sidebar %}
-    <a class="mobile-nav-btn" id="nav-btn">Menu</a>
     {% if s.image %}
       <img src=
       {% if s.image contains "://" %}
