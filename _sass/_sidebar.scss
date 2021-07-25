@@ -72,6 +72,9 @@
 .author{
   display: flex;
   justify-content: flex-end;
+  @include breakpoint($large) {
+    display: block;
+  }
 }
 
 .author__avatar {
@@ -245,4 +248,8 @@
 
 .sidebar-nav{
   display: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
 }
