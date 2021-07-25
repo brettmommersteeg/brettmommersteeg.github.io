@@ -1,10 +1,10 @@
 {% include base_path %}
 
 <div class="sidebar sticky">
-  <button class="mobile-nav-btn">Menu</button>
 {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
 {% if page.sidebar %}
   {% for s in page.sidebar %}
+    <a class="mobile-nav-btn" id="nav-btn">Menu</a>
     {% if s.image %}
       <img src=
       {% if s.image contains "://" %}
@@ -21,7 +21,7 @@
     {% include nav_list nav=page.sidebar.nav %}
   {% endif %}
 {% endif %}
-  <nav class="mobile-nav">
+  <nav class="mobile-nav" id="mobile-nav-id">
     {% for link in site.data.navigation.main %}
       {% if link.url contains 'http' %}
         {% assign domain = '' %}

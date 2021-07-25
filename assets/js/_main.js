@@ -95,4 +95,12 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  $( "#mobile-nav" ).click(function() {
+    if($(mobile-nav-id).height() > 0){
+      $(mobile-nav-id).css('height','0');
+    }else{
+      $(mobile-nav-id).css('height','auto');
+    }
+    
+  });
 });

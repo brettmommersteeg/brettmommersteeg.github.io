@@ -432,6 +432,8 @@
 }
 
 .mobile-nav{
+  height: 0;
+  overflow: hidden;
   @include breakpoint($large) {
     display: none;
   }
@@ -440,6 +442,7 @@
 .mobile-nav-btn{
   @include breakpoint($large) {
     display: none;
+    margin-right: auto;
   }
 
 }
