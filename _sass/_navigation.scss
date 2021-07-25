@@ -430,3 +430,16 @@
     }
   }
 }
+
+.mobile-nav{
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+.mobile-nav-btn{
+  @include breakpoint($large) {
+    display: none;
+  }
+
+}
