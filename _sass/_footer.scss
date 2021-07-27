@@ -20,8 +20,6 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
 
   footer {
     @include clearfix;
@@ -96,12 +94,12 @@
   float: right;
 
   a{
-    margin: 0 20px;
+    margin: 0 10px;
   }
 }
 
 .circle-icon {
-  background: #f2f3f3;
-  padding:30px;
+  background: $lighter-gray;
+  padding:10px;
   border-radius: 50%;
 }
