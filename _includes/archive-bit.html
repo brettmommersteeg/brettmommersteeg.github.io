@@ -26,9 +26,8 @@
         {{ tag }},
     {% endfor %}
     </h2>
-    <p>{% if site.tag_archive.type and page.tags[0] %}
-        {% include tag-list.html %}
-      {% endif %}</p>
+
+    <p>{% include page__taxonomy.html %}</p>
     
   </article>
 </div>
