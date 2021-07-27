@@ -1,10 +1,8 @@
 ---
-permalink: /cv
+permalink: /cv/
 title: "CV"
 excerpt: "Brett Mommersteeg's CV"
 author_profile: false
-redirect_from: 
-  - /cv/
 ---
 
 # CV
