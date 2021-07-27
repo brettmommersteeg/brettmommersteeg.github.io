@@ -2,7 +2,7 @@
 main:
   - title: "Me"
     url: "/about/"
-    
+
   - title: "Publications"
     url: /publications/  
         
@@ -10,4 +10,4 @@ main:
     url: /bits-and-pieces/
     
   - title: "CV"
-    url: /files/Brett_Mommersteeg_CV.pdf
+    url: /cv/
