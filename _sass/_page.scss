@@ -267,13 +267,16 @@
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
+  font-size: $type-size-8;
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
   }
+}
+
+.page__taxonomy-item ~ .page__taxonomy-item::before {
+  content: ', '; 
 }
 
 
