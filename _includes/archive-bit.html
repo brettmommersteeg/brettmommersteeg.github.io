@@ -19,11 +19,9 @@
         {{ post.date | default: "1900-01-01" | date: "%B %e, %Y" }}
     </h2>
 
-    <p>{{post.content}}</p>
-
     <h2>Tags: 
     {% for tag in post.tags %}
-        {{ tag }, }
+        {{ tag }}
     {% endfor %}
     
   </article>
