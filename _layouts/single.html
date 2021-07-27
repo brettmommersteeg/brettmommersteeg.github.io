@@ -58,10 +58,10 @@ layout: default
       </section>
 
       <footer class="page__meta">
-        {% include tag-bits.html %}
+        {% if site.tag_archive.type and page.tags[0] %}
+          {% include tag-bits.html %}
+        {% endif %}
       </footer>
-
-      {% include post_pagination.html %}
     </div>
 
   </article>
