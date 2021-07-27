@@ -21,7 +21,9 @@
 
     <p>{{post.content}}</p>
 
+    {% if site.tag_archive.path %}
     <p>{% include tag-bits.html %}</p>
+    {% endif %}
     
   </article>
 </div>
