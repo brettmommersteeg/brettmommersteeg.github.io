@@ -290,6 +290,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+post:
+  type: liquid
+  path: /post/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
