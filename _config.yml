@@ -190,9 +190,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  tags:
+  archives:
     output: true
-    permalink: /tags/:path/
+    permalink: /archives/:path/
 
 
 # Defaults
