@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/21421948/protect-e-mail-address-with-css-only
