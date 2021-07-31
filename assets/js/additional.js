@@ -12,15 +12,17 @@ $(document).ready(function(){
   });
 
   // Images in .archive or archive
-  var images = document.querySelectorAll('.archive img') 
+  var images = document.querySelector('.archive') 
   var $images2 = $('archive img')
 
-  var viewer = new Viewer(images[0], {
+  var viewer = new Viewer(images, {
     url: 'data-original',
     title: function (image) {
       return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
     },
   });
+
+  console.log(viewer)
 
   // $images.viewer({
   //   inline: true,
