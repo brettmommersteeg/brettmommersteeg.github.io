@@ -432,10 +432,19 @@
 }
 
 .mobile-nav{
+  position: absolute;
+  top: 0;
   height: auto;
   max-height: 0;
   overflow: hidden;
-  transition:max-height 0.3s ease-in-out;;
+  transition:max-height 0.3s ease-in-out;
+  padding-top: 20px;
+
+  li{
+    margin: 0 auto;
+    font-size: $type-size-4;
+    padding-bottom: $type-size-7;
+  }
 
   @include breakpoint($large) {
     display: none;

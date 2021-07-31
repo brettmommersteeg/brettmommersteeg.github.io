@@ -248,6 +248,12 @@
 
 .sidebar-nav{
   display: none;
+  margin-top: 20px;
+
+  li{
+    font-size: $type-size-5;
+    padding-bottom: $type-size-8;
+  }
 
   @include breakpoint($large) {
     display: block;
