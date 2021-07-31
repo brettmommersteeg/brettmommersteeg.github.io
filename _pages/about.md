@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# I am interested in how things hold and leak. 
+## I am interested in how things hold and leak. 
 
 I am currently writing a book about how a building is made and is made possible within and across different kinds of practices. Variations of a Building draws on ethnographic fieldwork with architects, engineers, politicians, acousticians and in sites of public engagement. It is interested in the techniques of sharing in the act of creation, the conditions of a building project, and its political effects. 
 
