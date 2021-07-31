@@ -11,12 +11,20 @@ $(document).ready(function(){
     $("#mobile-nav-id").css('max-height','0');
   });
 
-  $('#main').viewer({
-    inline: true,
-    viewed: function() {
-      $image.viewer('zoomTo', 1);
-    }
-  });
+  $images = $('img')
+  console.log($images)
+  // $images.viewer({
+  //   inline: true,
+  //   viewed: function() {
+  //     $image.viewer('zoomTo', 1);
+  //   } 
+  // })
+  // $('#main').viewer({
+  //   inline: true,
+  //   viewed: function() {
+  //     $image.viewer('zoomTo', 1);
+  //   }
+  // });
   
 });
 
