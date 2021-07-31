@@ -22,7 +22,8 @@ $(document).ready(function(){
     },
   });
 
-  console.log(viewer)
+  console.log(viewer.viewer())
+
 
   // $images.viewer({
   //   inline: true,
