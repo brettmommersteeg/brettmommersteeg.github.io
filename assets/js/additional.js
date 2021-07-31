@@ -11,33 +11,18 @@ $(document).ready(function(){
     $("#mobile-nav-id").css('max-height','0');
   });
 
-  // Images in .archive or archive
-  var images = document.querySelector('.archive') 
-  var $images2 = $('archive img')
+  var images = document.querySelector('article') 
 
   var viewer = new Viewer(images, {
-    url: 'data-original',
+    url: 'src',
+    navbar: false,
+    toolbar: false,
+    loading: false,
+    rotatable: false,
     title: function (image) {
       return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
     },
-  });
-
-  console.log(viewer.viewer())
-
-
-  // $images.viewer({
-  //   inline: true,
-  //   viewed: function() {
-  //     $image.viewer('zoomTo', 1);
-  //   } 
-  // })
-
-  // $images2.viewer({
-  //   inline: true,
-  //   viewed: function() {
-  //     $image.viewer('zoomTo', 1);
-  //   } 
-  // })
+  })
 
   
 });
