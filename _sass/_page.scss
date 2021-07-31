@@ -404,3 +404,9 @@
 .viewer-footer{
   background-color: $darker-gray;
 }
+
+article{
+  img{
+    cursor: pointer;
+  }
+}
