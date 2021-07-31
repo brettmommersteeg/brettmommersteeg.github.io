@@ -15,7 +15,7 @@ $(document).ready(function(){
   var images = document.querySelectorAll('.archive img') 
   var $images2 = $('archive img')
 
-  var viewer = new Viewer(images, {
+  var viewer = new Viewer(images[0], {
     url: 'data-original',
     title: function (image) {
       return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
