@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /tags/
-title: "Posts by Tags"
+title: "Bits & Pieces by Tags"
 redirect_from: 
   - /tags.html
 ---
@@ -13,6 +13,6 @@ redirect_from:
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
   {% for post in posts %}
-  {% include archive-tag.html %}
+    {% include archive-tag.html %}
   {% endfor %}
 {% endfor %}
