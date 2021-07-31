@@ -13,12 +13,14 @@ $(document).ready(function(){
 
   $images = $('img')
   console.log($images)
-  // $images.viewer({
-  //   inline: true,
-  //   viewed: function() {
-  //     $image.viewer('zoomTo', 1);
-  //   } 
-  // })
+  $images.viewer({
+    inline: true,
+    viewed: function() {
+      $image.viewer('zoomTo', 1);
+    } 
+  })
+  $image2 = $('#main img')
+  console.log($image2)
   // $('#main').viewer({
   //   inline: true,
   //   viewed: function() {
