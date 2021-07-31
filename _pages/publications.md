@@ -10,8 +10,8 @@ Variations of a Building: an ontological politics of architecture. *In�
 
 ## Journal Articles & Book Chapters
 
-Approximation and Guesswork: on some ways to listen to a building 'in the making'\
-Mommersteeg, B *Submitted*
+Approximation and Guesswork: on some ways to listen to a building 'in the making'\
+Mommersteeg, B *Sumitted*
 
 
 How does an ANT approach help us rethink the notion of site\
