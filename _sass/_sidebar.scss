@@ -253,6 +253,10 @@
   li{
     font-size: $type-size-5;
     padding-bottom: 5px;
+
+    a:hover{
+      text-decoration: underline;
+    }
   }
 
   @include breakpoint($large) {

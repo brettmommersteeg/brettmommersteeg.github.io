@@ -16,10 +16,10 @@ Then a miniature hydrophone (Model 8103, Bruel and Kjaer Instruments) was fitted
 
 Everything was calibrated: The ewes, the phones, the speakers, the sounds.
 
-Here is an appropriately abstracted diagram of the experiment:
+Here is an appropriately abstracted diagram of the experiment:\
 ![Transmission of airborne sound into abdomen of sheep](https://brettmommersteeg.github.io\images\sounds-science-1.png)
 
-The sounds of science -- the tell-tales of the production of scientific facts. But it also reminded me of a famous description that begins Foucault’s Discipline and Punish: 
+The sounds of science -- the tell-tales of the production of scientific facts. But it also reminded me of a famous description that begins Foucault’s Discipline and Punish:\
 ![famous description that begins Foucault’s Discipline and Punish](https://brettmommersteeg.github.io\images\sounds-science-2.png)
 
 This begs a question. What sort of legal code of pain (34), in Foucault’s words, is involved in the production of scientific knowledge, in the disciplining of objects under the scientific gaze (Lynch 1985), but also, here, caught within the listening practices of these scientists? What, moreover, is the role of “animal models” for mimicking the impact of infrasound or low frequency noise on the human body?
