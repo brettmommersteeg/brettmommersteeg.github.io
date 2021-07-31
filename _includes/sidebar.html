@@ -31,7 +31,8 @@
         {% assign domain = base_path %}
       {% endif %}
       <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}  
+    {% endfor %}
+    <hr>
   </nav>
   <nav id="site-nav" class="sidebar-nav">
     {% for link in site.data.navigation.main %}
