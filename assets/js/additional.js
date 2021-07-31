@@ -12,11 +12,11 @@ $(document).ready(function(){
   });
 
   // Images in .archive or archive
-  var $images = $('.archive img') 
+  var images = document.querySelectorAll('.archive img') 
   var $images2 = $('archive img')
   console.log($images)
 
-  var viewer = new Viewer($images, {
+  var viewer = new Viewer(images, {
     url: 'data-original',
     title: function (image) {
       return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
