@@ -11,22 +11,18 @@ $(document).ready(function(){
     $("#mobile-nav-id").css('max-height','0');
   });
 
-  $images = $('img')
+  // Images in .archive or archive
+  $images = $('.archive img') 
+  $images2 = $('archive img')
   console.log($images)
+  
   // $images.viewer({
   //   inline: true,
   //   viewed: function() {
   //     $image.viewer('zoomTo', 1);
   //   } 
   // })
-  $image2 = $('#main img')
-  console.log($image2)
-  // $('#main').viewer({
-  //   inline: true,
-  //   viewed: function() {
-  //     $image.viewer('zoomTo', 1);
-  //   }
-  // });
+
   
 });
 
