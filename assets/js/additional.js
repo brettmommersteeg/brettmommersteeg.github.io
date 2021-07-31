@@ -12,16 +12,23 @@ $(document).ready(function(){
   });
 
   // Images in .archive or archive
-  $images = $('.archive img') 
-  $images2 = $('archive img')
+  var $images = $('.archive img') 
+  var $images2 = $('archive img')
   console.log($images)
-  
-  // $images.viewer({
-  //   inline: true,
-  //   viewed: function() {
-  //     $image.viewer('zoomTo', 1);
-  //   } 
-  // })
+
+  $images.viewer({
+    inline: true,
+    viewed: function() {
+      $image.viewer('zoomTo', 1);
+    } 
+  })
+
+  $images2.viewer({
+    inline: true,
+    viewed: function() {
+      $image.viewer('zoomTo', 1);
+    } 
+  })
 
   
 });
