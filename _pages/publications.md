@@ -5,7 +5,7 @@ permalink: /publications/
 redirect_from: 
   - /publications.html
 ---
-
+{% include base_path %}
 ## Books
 
 Variations of a Building: an ontological politics of architecture. In progress.
