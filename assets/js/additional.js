@@ -14,7 +14,6 @@ $(document).ready(function(){
   // Images in .archive or archive
   var images = document.querySelectorAll('.archive img') 
   var $images2 = $('archive img')
-  console.log($images)
 
   var viewer = new Viewer(images, {
     url: 'data-original',
