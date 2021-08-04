@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Dr. Brett Mommersteeg"
+title: "About me"
 excerpt: "About me"
 redirect_from: 
   - /about/

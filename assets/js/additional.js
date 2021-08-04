@@ -20,7 +20,7 @@ $(document).ready(function(){
     loading: false,
     rotatable: false,
     title: function (image) {
-      return image.alt + ' (' + (this.index + 1) + '/' + this.length + ')';
+      return image.alt;
     },
   })
 

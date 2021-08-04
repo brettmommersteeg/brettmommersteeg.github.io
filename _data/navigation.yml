@@ -10,7 +10,7 @@ main:
     url: /bits-and-pieces/
     
   - title: "CV"
-    url: /cv/
+    url: https://brettmommersteeg.github.io/files/MOMMERSTEEG_CV.pdf
   
   - title: "Contact"
     url: /contact/
