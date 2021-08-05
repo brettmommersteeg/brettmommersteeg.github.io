@@ -1,31 +1,233 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Add Posts
+To add posts to Bits & Pieces create a markdown file to the directory _posts.
+The file should have the name format `YYYY-MM-DD-title of page.md` 
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Use the markdown cheat sheet below for formatting. At the top of the post include the following header.
+```
+---
+title: 'Sounds of Science?'
+date: 2021-07-30
+permalink: /bits-and-pieces/sounds-of-science/
+tags:
+  - sounds
+---
+```
+Tags will be listed at the bottom of the post and combined together.  
+The permalink needs to include the first bit to be added to the list `/bits-and-pieces/`
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+*Add Post*
+To add posts add files to the _posts directory on github.  
+![Create post](https://brettmommersteeg.github.io/images/github-add-file.png "Create post")
 
-# Instructions
+Add the filename at the top and save (commit) the new post at the bottom.  
+![Commit post](https://brettmommersteeg.github.io/images/github-add-file-2.png "Commit post")
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+*Edit Post*
+Posts can be modified on github by clicking the pencil on post.  
+![Edit post](https://brettmommersteeg.github.io/images/github-edit-file.png "Edit post")
 
-See more info at https://academicpages.github.io/
+After editing the post need to commit to github in order for it to be update on the website.  
+![Save edit post](https://brettmommersteeg.github.io/images/github-edit-file-2.png "Save edit post")
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## Add Images
+Images can be added to posts. They first need to be uploaded to the images directory.
+The name of the files should not have any spaces, use - or _ for spaces.  
+`![alt text](https://brettmommersteeg.github.io/images/github-add-file.png "Logo Title Text 1")`
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## Add Files
+Files can be added to posts. They first need to uploaded to files directory.
+The name of the files should not have any spaces, use - or _ for spaces. 
+The file can be included as a link in a post.  
+`[Upload File](https://brettmommersteeg.github.io/files/MOMMERSTEEG_CV.pdf)`  
+[Upload File](https://brettmommersteeg.github.io/files/MOMMERSTEEG_CV.pdf)
+# Update Page Content
+Page content can be update like posts on github. Pages are all stored in the _page directory.
 
-# Changelog -- bugfixes and enhancements
+# Markdown Cheat Sheet
+## Headers
+```
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+### Examples
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+<br>
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+## Emphasis
+```
+Italics - *asterisks* or _underscores_
+Bold - **asterisks** or __underscores__
+Combined - **asterisks and _underscore_**
+Strikethrough - ~scratch that~
+```
+### Example
+*Italics*\
+**Bold**\
+**Combined _style_**\
+~Strikethrough~
+## Lists
+```
+1. Order list
+2. Second Item
+  * Unordered sub-list
+
+1. Another list
+  Can have a sub paragraph under a list
+```
+### Example
+1. List item one 
+    1. List item one 
+        1. List item one
+2. Second Item
+    * Unordered sub-list
+        * Sub-list
+
+1. Another list  
+  Can have a sub paragraph under a list, need to add two trailing spaces to do soft  
+  line breaks (or '\')
+
+<br>
+
+## Line Breaks
+```
+Soft line break - \ or two trailing spaces
+Another method break - <br>
+To have empty line need to have two spaces
+```
+### Example
+Soft line break\
+Soft line
+<br>
+Line break
+
+Space between lines
+
+## Links
+```
+[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+```
+### Example
+[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+## Images
+```
+![alt text](https://brettmommersteeg.github.io/images/site-logo.png "Logo Title Text 1")
+
+```
+### Example
+![alt text](https://brettmommersteeg.github.io/images/site-logo.png "Logo Title Text 1")
+
+## Code
+```
+\```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+\```
+ 
+\```python
+s = "Python syntax highlighting"
+print s
+\```
+ 
+\```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+\```
+
+Inline `code` has `back-ticks around` it.
+
+
+```
+## Example
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+ 
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+
+Inline `code` has `back-ticks around` it.
+
+## Tables
+```
+
+| Entry            | Item   |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+```
+### Example
+| Entry            | Item   |                                                              |
+| --------         | ------ | ------------------------------------------------------------ |
+| [John Doe](#)    | 2016   | Description of the item in the list                          |
+| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
+| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+
+## Blockquotes
+```
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+```
+### Example
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+## Horizontal Rule
+```
+Three or more...
+
+Hyphens
+---
+Asterisks
+***
+Underscores
+___
+```
+### Example
+Three or more...
+
+Hyphens
+---
+
+Asterisks
+***
+
+Underscores
+___
+
+## Sub and Super Script
+```
+H<sub>2</sub>O
+E = MC<sup>2</sup>
+```
+### Example
+H<sub>2</sub>O
+E = MC<sup>2</sup>
+
+
+
+# To Do
+* Add SEO to config file
+* Look into ways to improve SEO
+* Clean up unused _layouts, _includes, _config.yml settings
