@@ -12,12 +12,15 @@ redirect_from:
 ## Journal Articles & Book Chapters
 
 ### Approximation and Guesswork: on some ways to listen to a building 'in the making'
-Mommersteeg, B *Submitted*
+Mommersteeg, B *In Review*
+
+### Politics as Experience: three ways in which STS can help us think about politics in architecture
+Mommersteeg, B *Submitted for Review*
 
 ### How does an ANT approach help us rethink the notion of site
 Book: *The Routledge Companion to Actor-Network Theory*, Routledge. 306-317\
 Yaneva, A and Mommersteeg, B (2020)\
-(eds. Andres Blok, Ignacio Farías, and Celia Roberts)
+(eds. Anders Blok, Ignacio Farías, and Celia Roberts)
 
 ### The Unbearable Lightness of Architectural Discourse
 Book: *Aesthetics Equals Politics*, MIT Press. 213-233\
