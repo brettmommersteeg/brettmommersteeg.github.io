@@ -6,16 +6,23 @@ redirect_from:
 ---
 ## Books
 
-### Variations of a Building: an ontological politics of architecture. 
-*In progress*
+### *Variations of a Building*. 2023. Palgrave Macmillan. 
+https://link.springer.com/book/10.1007/978-981-99-6802-2
 
 ## Journal Articles & Book Chapters
 
-### Approximation and Guesswork: on some ways to listen to a building 'in the making'
-Mommersteeg, B *In Review*
+### Two or Three Confusions About Vibration
+Mommersteeg, B. *Science, Technology & Human Values* 
+https://journals.sagepub.com/doi/abs/10.1177/01622439251410537
 
-### Politics as Experience: three ways in which STS can help us think about politics in architecture
-Mommersteeg, B *Submitted for Review*
+### EMF Risk and Hesitation in a Polarised World: Towards a Diplomatic Relativism
+Mommersteeg, B. With Nona Schulte-Römer. *Historical Social Research / Historische Sozialforschung*. 
+https://www.jstor.org/stable/27390600?seq=1
+
+### Approximations: on some ways to listen to a building 'in the making'
+Mommersteeg, B. *Science, Technology & Human Values*. 
+https://journals.sagepub.com/doi/abs/10.1177/01622439221116964
+
 
 ### How does an ANT approach help us rethink the notion of site
 Book: *The Routledge Companion to Actor-Network Theory*, Routledge. 306-317\
