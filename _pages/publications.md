@@ -23,7 +23,6 @@ https://www.jstor.org/stable/27390600?seq=1
 Mommersteeg, B. *Science, Technology & Human Values*. 
 https://journals.sagepub.com/doi/abs/10.1177/01622439221116964
 
-
 ### How does an ANT approach help us rethink the notion of site
 Book: *The Routledge Companion to Actor-Network Theory*, Routledge. 306-317\
 Yaneva, A and Mommersteeg, B (2020)\
@@ -38,3 +37,7 @@ Yaneva, A and Mommersteeg, B (2019)\
 Journal: *Ardeth*, vol. 2. 219-238\
 Mommersteeg, B. (2018)
 
+## MORE
+### Confusion and Vibration. In *Vibraception: Investigations in Wavespace*
+Jan St. Werner et al. 
+https://kverlag.com/products/vibraception-jan-st-werner-zagreb
